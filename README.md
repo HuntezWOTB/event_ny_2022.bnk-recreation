@@ -41,3 +41,4 @@
  11.2) event_ny_2022.bnk.dvpl копируем в папку Android\data\net.wargaming.wot.blitz\files\packs\WwiseSound
  11.3) Подтверждаем замену файлов
   Мод на андроид установлен!
+ 
