@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A40C461B-6018-4385-86BC-483D77AF7877}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A40C461B-6018-4385-86BC-483D77AF7877}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="event_ny_2022" ID="{865685CC-3DB9-4087-A0F8-F62E908C3C6A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ambient_ny_hangar_2022_wind" ID="{A51CFBB0-070B-403E-97EE-E4E693543988}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambient_ny_hangar_2022_snow" ID="{7FE876D0-47CA-4236-8A85-2750FF68F862}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambient_ny_hangar_2022_sparks" ID="{A15870AF-B728-42D3-8478-D3E7B5889185}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambient_ny_hangar_2022_fireworks_far" ID="{8A2E9F03-13B6-4606-A5ED-A386D3DF01D7}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambient_ny_hangar_2022_drone" ID="{39EAD681-C0A3-4619-A9A4-E8011FEE04A4}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambient_ny_hangar_2022_trafic" ID="{A8487A47-18CA-47A3-A7E1-B3442BB30082}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambient_ny_hangar_2022_fireworks" ID="{6F3596B3-1762-47CB-8F55-EB08B3FBE34A}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambient_ny_hangar_2022_bells" ID="{1C463AE3-7E8A-4ADB-BC43-E59ECE5B5493}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ny_2022_ui_chestball_open" ID="{E6109EAB-19D7-4DF2-A1BA-C88E1AB1E9F3}" WorkUnitID="{5144D906-A9CF-4B4C-9AFB-48929B9BDCB9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambient_ny_hangar_2022_crowd" ID="{5F92F1B5-9DD8-4E20-AA12-3C73700D50F4}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambient_ny_hangar_2022_tree" ID="{4FD0D70C-EDC9-4FF8-9A4E-05DDE821CFA3}" WorkUnitID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
