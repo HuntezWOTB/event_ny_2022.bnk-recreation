@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6BA6EA69-31D8-4BC6-A06C-323AECCB3A43}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="General" ID="{6BA6EA69-31D8-4BC6-A06C-323AECCB3A43}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_int_azimuth" ID="{E466B29B-4757-4EAC-8314-78C927D62E1B}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

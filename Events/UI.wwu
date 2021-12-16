@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5144D906-A9CF-4B4C-9AFB-48929B9BDCB9}" SchemaVersion="97" RootDocumentID="{5C5CE8A9-D466-4290-9F85-01B873E07B8C}">
+	<Events>
+		<WorkUnit Name="UI" ID="{5144D906-A9CF-4B4C-9AFB-48929B9BDCB9}" OwnerID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="play_ny_2022_ui_chestball_open" ID="{E6109EAB-19D7-4DF2-A1BA-C88E1AB1E9F3}">
+					<ChildrenList>
+						<Action Name="" ID="{62AAEF8A-153B-48EB-BD71-C40BD4990494}" ShortID="935484961">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ny_2022_chestball_open" ID="{BA378681-49FD-40D2-AC45-9CD8105430C5}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

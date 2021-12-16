@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Events" ID="{F4A12799-5632-4845-8D0A-98C58AD6A9F9}" ShortID="444784273">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{41C503FC-DA40-4D92-B4A4-70E712E33B77}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="NY_2022" ID="{C1497803-5E90-4718-B7E7-B8BE7F79855A}" ShortID="556905875">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{41C503FC-DA40-4D92-B4A4-70E712E33B77}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="bells_01" ID="{E9D7896F-0664-43B6-8FDC-D66A065B0AB7}" ShortID="687785772">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{68ADAC73-7415-4F9E-8125-B942B5415DD9}" ShortID="415165438">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{F1B3495D-799B-4CAC-9C0D-89325E74A652}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="bells_01" ID="{3A935FA7-3517-4CEF-9ED4-0476E598DF72}">
+											<Language>SFX</Language>
+											<AudioFile>bells_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="184425225"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="bells_01" ID="{3A935FA7-3517-4CEF-9ED4-0476E598DF72}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="bells_02" ID="{390A045C-B9FC-49D2-AA94-8A66F5E4933D}" ShortID="819051352">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>10.892</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{39E5A032-A00B-4C95-91D7-EA416790D3E9}" ShortID="39361241">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C3739422-07BD-4E87-9873-89E52427F0D3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="bells_02" ID="{2B0866C2-A218-4CEE-B292-24EEEDCBE0B9}">
+											<Language>SFX</Language>
+											<AudioFile>bells_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="135957343"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="bells_02" ID="{2B0866C2-A218-4CEE-B292-24EEEDCBE0B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fireworks_crowd_01" ID="{FBFDC8F7-1BC1-4E9A-BC26-B31147D79866}" ShortID="579987474">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{76BE01CE-FFCD-4242-AB25-357094AF3454}" ShortID="742614438">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A181B578-E389-47FF-9FDF-DC294D1DBE6C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fireworks_crowd_01" ID="{E664D3D7-946D-4C37-87E4-3FE26B0F5128}">
+											<Language>SFX</Language>
+											<AudioFile>fireworks_crowd_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1071691003"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fireworks_crowd_01" ID="{E664D3D7-946D-4C37-87E4-3FE26B0F5128}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fireworks_crowd_02" ID="{830BD1B5-0386-4458-AA76-2C19EB7CD440}" ShortID="176195982">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{AE4B6701-94CE-4938-9C88-878BA9C23521}" ShortID="814293492">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B898B7E9-6DFE-4A96-B8E1-A01C85562712}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fireworks_crowd_02" ID="{552C50FF-643C-4188-990B-9A364CE1C858}">
+											<Language>SFX</Language>
+											<AudioFile>fireworks_crowd_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="337974221"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fireworks_crowd_02" ID="{552C50FF-643C-4188-990B-9A364CE1C858}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="melody_BPM92" ID="{C785FF72-F1FB-40B5-B8F4-E34C5D5F4EC2}" ShortID="923849718">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>48.733</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{ED42FC0D-7189-48A4-A6FC-02BD503CD9B8}" ShortID="961573966">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{196C631A-9182-4784-BDA4-030BA409A0DE}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{DF9C5362-5262-4DBE-BE30-32D9FD1DCE61}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="melody_BPM92" ID="{B5CAAF72-8088-4013-9B47-A1D529C77FF3}">
+											<Language>SFX</Language>
+											<AudioFile>melody_BPM92.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="270484467"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="melody_BPM92" ID="{B5CAAF72-8088-4013-9B47-A1D529C77FF3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="melody_BPM63" ID="{238C5E50-324A-4C6A-B24E-BBC47CDB9958}" ShortID="405951757">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{CFB3D783-67C4-4786-A339-E4767E50302D}" ShortID="658666139">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{196C631A-9182-4784-BDA4-030BA409A0DE}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2FAF1D25-19BF-41D5-9774-A21E2D223798}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="melody_BPM63" ID="{90E359D0-CBF8-45A5-8CA2-E80E5A5AC60E}">
+											<Language>SFX</Language>
+											<AudioFile>melody_BPM63.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986111264"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="melody_BPM63" ID="{90E359D0-CBF8-45A5-8CA2-E80E5A5AC60E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fireworks_part_05" ID="{69B58949-F75C-41FE-B0DC-902FE471C9EF}" ShortID="538410423">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>9.607</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{78E4E8D5-697D-4F0E-83DF-5AC3A4DF10C8}" ShortID="436035993">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7F41886B-C302-4F4A-AA34-1DF1F7D15150}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fireworks_part_05" ID="{71069CB2-91D0-45E5-B3CC-85EEF3F75F59}">
+											<Language>SFX</Language>
+											<AudioFile>fireworks_part_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1017533491"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fireworks_part_05" ID="{71069CB2-91D0-45E5-B3CC-85EEF3F75F59}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fireworks_part_04_1-1" ID="{1F82F9DA-21CC-4927-8EF2-DF741A8D0140}" ShortID="63520201">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>6.709</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{97D337CC-26D0-428C-B1BD-36AA05CA4FF8}" ShortID="32403451">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C2BC25F9-9AA5-43D2-8BD5-BC25064C66C5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fireworks_part_04_1-1" ID="{212C2EA2-F2D3-4DA5-9DDF-1C42B7BF42D2}">
+											<Language>SFX</Language>
+											<AudioFile>fireworks_part_04_1-1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493625035"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fireworks_part_04_1-1" ID="{212C2EA2-F2D3-4DA5-9DDF-1C42B7BF42D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fireworks_part_01" ID="{1816BF49-51FB-4CDA-BE4E-7EAF4F3D1E78}" ShortID="289648970">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{0C93CFAC-EF0F-4D96-847F-927EEDACB5AC}" ShortID="617127831">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{51290FA2-4206-4D81-8518-E7CBBDDA3D6F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fireworks_part_01" ID="{A985128B-059D-4AD4-9932-BB22F94B6D7A}">
+											<Language>SFX</Language>
+											<AudioFile>fireworks_part_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197904365"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fireworks_part_01" ID="{A985128B-059D-4AD4-9932-BB22F94B6D7A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fireworks_part_02" ID="{CE074C15-EEBB-4C22-A9A0-7D61A7CA9B15}" ShortID="154576011">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>3.536</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{C43DBA86-4482-4A93-B6D1-98C349F2EFDF}" ShortID="489757132">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{BF7D35A7-8AEF-4237-8DBE-72D2274EB84C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fireworks_part_02" ID="{D06FF41E-E14C-4E55-B68C-A7D3306E27D9}">
+											<Language>SFX</Language>
+											<AudioFile>fireworks_part_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="717101954"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fireworks_part_02" ID="{D06FF41E-E14C-4E55-B68C-A7D3306E27D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="firework_far-1" ID="{E5BF7B8B-879D-4ABE-B0B2-898BC231408A}" ShortID="222807552">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{B46C7F38-A41E-4337-98E7-746150CE0151}" ShortID="234049120">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{68439864-A0D7-4DF0-B0CB-5E0FDE4AE055}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="firework_far-1" ID="{F3F54263-770F-4F34-A98A-BC8E9FDFD6B8}">
+											<Language>SFX</Language>
+											<AudioFile>firework_far-1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1058885056"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="firework_far-1" ID="{F3F54263-770F-4F34-A98A-BC8E9FDFD6B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="snow_01" ID="{DD044B29-AC0B-422A-8C1F-AC24179980B5}" ShortID="371026251">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{71BD96EB-FE57-443E-9A82-A91D648C5E3B}" ShortID="69939823">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{118FE2E6-0415-48D1-9134-6D5D14750CB0}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="snow_01" ID="{FAF07AFE-4FAD-42ED-819F-AF6230332E25}">
+											<Language>SFX</Language>
+											<AudioFile>snow_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="185949064"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="snow_01" ID="{FAF07AFE-4FAD-42ED-819F-AF6230332E25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="snow_05" ID="{C4C60C64-2483-44CF-9F91-CC22210B225A}" ShortID="595245571">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5F0A405E-6D93-429B-8B90-F56E10ACDF57}" ShortID="641787228">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6E567897-2DDE-49B3-81EA-7868295BD3B0}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="snow_05" ID="{F34E3D2F-7AEC-44E0-B922-D4393F951454}">
+											<Language>SFX</Language>
+											<AudioFile>snow_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="537380685"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="snow_05" ID="{F34E3D2F-7AEC-44E0-B922-D4393F951454}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="snow_02" ID="{8987E62C-11AC-445A-B17F-6B30F9C48BA4}" ShortID="6507804">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{6992B232-35A1-4F44-9B0C-D477ABCE2665}" ShortID="804205095">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3A6167B5-E947-4D0A-A681-6498AF59D6FA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="snow_02" ID="{7A8935FD-D6E5-4316-A0CA-75CF151B9360}">
+											<Language>SFX</Language>
+											<AudioFile>snow_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="844870700"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="snow_02" ID="{7A8935FD-D6E5-4316-A0CA-75CF151B9360}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="snow_04" ID="{31BF610C-A0A3-4ADE-8D08-5431238C5B6A}" ShortID="680321931">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{6832DC38-F1B8-42C8-8993-5EF133422527}" ShortID="1023513758">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{974692E1-1BA0-4ADF-9EDA-71DB17944E0C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="snow_04" ID="{63A078E4-4B7D-4816-98C4-1B60A72369E5}">
+											<Language>SFX</Language>
+											<AudioFile>snow_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="484523220"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="snow_04" ID="{63A078E4-4B7D-4816-98C4-1B60A72369E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="snow_03" ID="{179992DE-30FF-4B04-87F5-1C871A65A462}" ShortID="705109642">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{3B3508DB-11C3-4310-AACD-1252123EA528}" ShortID="909177581">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{62913EBC-07FE-4623-B5FA-08B82F98E500}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="snow_03" ID="{667AFE93-5764-4FA9-BD15-7CD9EEC57E3B}">
+											<Language>SFX</Language>
+											<AudioFile>snow_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="622199410"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="snow_03" ID="{667AFE93-5764-4FA9-BD15-7CD9EEC57E3B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sparks_01" ID="{CA9EF033-7818-4831-AEF1-D8A9E9630227}" ShortID="934209194">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{E4E3FD5D-1A26-405F-A31E-340F1E60A642}" ShortID="208072664">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{18E15C69-EE2F-4CED-ADC7-3D6AD161AC76}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sparks_01" ID="{42AB8138-E82D-4AFA-9870-AF0233D322E1}">
+											<Language>SFX</Language>
+											<AudioFile>sparks_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="116686223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sparks_01" ID="{42AB8138-E82D-4AFA-9870-AF0233D322E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sparks_02" ID="{7E5A1C64-416A-4040-89FC-552F5C08611B}" ShortID="97425014">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{733E5DD4-1B7E-4BE1-8AC7-74B26BC1739D}" ShortID="470765513">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{77FB3342-DE2E-4458-A982-AFDDF93C21D4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sparks_02" ID="{6E3C98D7-AF34-439D-B69B-87202F08B737}">
+											<Language>SFX</Language>
+											<AudioFile>sparks_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="196797367"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sparks_02" ID="{6E3C98D7-AF34-439D-B69B-87202F08B737}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="car_trafic_2" ID="{7A8B9D6B-3D35-4BFA-B5A8-D142079623A8}" ShortID="1005341666">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>17.89</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{8E79EFCA-E2C6-449B-8CBE-FB65F5126E5C}" ShortID="230749437">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{BDCD3125-0D0E-4AE5-9E6A-1ADC2A64C60A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="car_trafic_2" ID="{2C516010-2380-4524-8603-933D35BAB4A9}">
+											<Language>SFX</Language>
+											<AudioFile>car_trafic_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1005237621"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="car_trafic_2" ID="{2C516010-2380-4524-8603-933D35BAB4A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="car_trafic_4" ID="{7F1F07B4-D0CC-4E30-A4D2-0828027B313B}" ShortID="210190077">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>52.429</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{4C9CFED2-3F3E-4CAE-87E4-EE9EE7E250DB}" ShortID="479360289">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{EDA29972-D6F1-4F8D-8F73-6C39048257EE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="car_trafic_4" ID="{310B1B53-D181-4FFB-8FDE-156782FCD0E3}">
+											<Language>SFX</Language>
+											<AudioFile>car_trafic_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="641939883"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="car_trafic_4" ID="{310B1B53-D181-4FFB-8FDE-156782FCD0E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="car_trafic_3" ID="{3E023359-B35A-4F57-BC04-70CE86326ABB}" ShortID="757269342">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>38.564</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{AA1FA8C2-998C-4D1D-981C-79B8EC7E2B7C}" ShortID="179107345">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{08741029-FA87-472B-8CC7-12C7125A751B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="car_trafic_3" ID="{2709F22F-C234-4AF7-883D-478A9F3CE6A9}">
+											<Language>SFX</Language>
+											<AudioFile>car_trafic_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1055266197"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="car_trafic_3" ID="{2709F22F-C234-4AF7-883D-478A9F3CE6A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="car_trafic_1" ID="{AAEC44B8-D49F-452C-B5DA-BD1821DC6319}" ShortID="269137459">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{9CA618BF-58C4-429C-A317-4196134DF4F4}" ShortID="396505754">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B9934E1F-C36B-42E5-A10B-4E46F81E56E9}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="car_trafic_1" ID="{9550C94E-EC28-4BF6-8EFA-5DE7D6F2B905}">
+											<Language>SFX</Language>
+											<AudioFile>car_trafic_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="738699321"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="car_trafic_1" ID="{9550C94E-EC28-4BF6-8EFA-5DE7D6F2B905}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ambient_tree_01" ID="{3C5B04C1-06CC-4C53-8989-087A55218B4E}" ShortID="240937303">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{643491DC-1B6D-4E13-9D6D-F3CF3A4454BD}" ShortID="50532386">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3D8EF7CB-3146-481F-92FE-9CF82D5025CE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ambient_tree_01" ID="{4F27CC12-A6DD-4768-8AAA-39A36B6D5EAB}">
+											<Language>SFX</Language>
+											<AudioFile>ambient_tree_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="306985690"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ambient_tree_01" ID="{4F27CC12-A6DD-4768-8AAA-39A36B6D5EAB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ambient_tree_03" ID="{1F0B72BE-E8B2-41FE-A99F-C6FC0FDA02AA}" ShortID="497070203">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{63CCFA26-71CA-4DE5-9BF8-1570DFA3F4DE}" ShortID="901241391">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B7E85F16-6DD7-4684-B2F6-9632A9EA6EBA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ambient_tree_03" ID="{CFF0FC8B-0E0A-40CA-ABA3-92E9E19F3515}">
+											<Language>SFX</Language>
+											<AudioFile>ambient_tree_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="789717606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ambient_tree_03" ID="{CFF0FC8B-0E0A-40CA-ABA3-92E9E19F3515}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ambient_tree_02" ID="{B39F8ED5-C4E4-43D8-8995-CE5C66151C8D}" ShortID="535142519">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{21119EE9-1C44-4F4E-A06F-7FB423CD155D}" ShortID="144712759">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4ECA39E7-6EAC-49AC-BA85-4BEC976E2CB5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ambient_tree_02" ID="{BF38BF4A-23A1-433F-A132-08EFA464F8EC}">
+											<Language>SFX</Language>
+											<AudioFile>ambient_tree_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1046105168"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ambient_tree_02" ID="{BF38BF4A-23A1-433F-A132-08EFA464F8EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="amb_winter_gust_03" ID="{5B3DD5A7-A8DC-4138-8902-D78C4ADF7EC5}" ShortID="106812457">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{D65F8A8A-633A-42F9-B71F-9434D4663FE3}" ShortID="406662295">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{84A6240F-41D1-403E-917F-5D4D21096612}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_winter_gust_03" ID="{F1381AA7-5F0F-4471-86B0-66CB141242A2}">
+											<Language>SFX</Language>
+											<AudioFile>amb_winter_gust_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="974191612"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_winter_gust_03" ID="{F1381AA7-5F0F-4471-86B0-66CB141242A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="amb_winter_gust_04" ID="{36DF0C49-BD2B-40F3-BA52-B0510F76606F}" ShortID="242934151">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{0F9246E9-2988-47BF-9BE8-CCAD1C1DBAE1}" ShortID="534486058">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{8D421E71-8F3D-44ED-8998-77145FADCB29}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_winter_gust_04" ID="{05F8E517-B79E-4653-9F81-2F7B02F80124}">
+											<Language>SFX</Language>
+											<AudioFile>amb_winter_gust_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408650167"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_winter_gust_04" ID="{05F8E517-B79E-4653-9F81-2F7B02F80124}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambient_winter_wind_loop" ID="{B87748C1-03D6-460A-A132-736A5DE45FCC}" ShortID="554589712">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{E91AB317-3FA3-4641-B129-8721992F969E}" ShortID="4397225">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7C31203E-CEA6-42A9-9A51-F71B8B0BF007}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambient_winter_wind_loop" ID="{EA3E9934-B207-421C-B782-E07C95DD0329}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_winter_wind_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="417789175"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambient_winter_wind_loop" ID="{EA3E9934-B207-421C-B782-E07C95DD0329}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="amb_winter_gust_02" ID="{BB4EC40E-447F-4E78-ABD1-43A6A0919B33}" ShortID="688086266">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{54DA64E0-B76B-4847-9A6C-2E187A0DCA17}" ShortID="817651749">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3BD5BC41-920B-45C2-B341-530FD578B2BA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_winter_gust_02" ID="{B8A94DCD-0F95-47A7-AA28-32BAD9B5BAB8}">
+											<Language>SFX</Language>
+											<AudioFile>amb_winter_gust_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="772335591"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_winter_gust_02" ID="{B8A94DCD-0F95-47A7-AA28-32BAD9B5BAB8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="amb_winter_gust_01" ID="{27510B5E-3746-4905-A312-3B9735DBE8F6}" ShortID="232606669">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{E06F3DE9-E313-4E06-BCC6-95608349827A}" ShortID="1031926831">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1122B12E-DFEF-45F2-98E1-B968FF4BDE83}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_winter_gust_01" ID="{5E52C6DF-EA42-4030-A532-5A1612BC0348}">
+											<Language>SFX</Language>
+											<AudioFile>amb_winter_gust_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589326197"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_winter_gust_01" ID="{5E52C6DF-EA42-4030-A532-5A1612BC0348}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="UI_ny_chest_sphere" ID="{931C82F7-2FDF-4683-AA88-2F33683B4DBC}" ShortID="1032013064">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{41C503FC-DA40-4D92-B4A4-70E712E33B77}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ny_2022_chestball_open" ID="{BA378681-49FD-40D2-AC45-9CD8105430C5}" ShortID="357124346">
+											<PropertyList>
+												<Property Name="OverrideConversion" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{5845C5BC-D162-4FBD-BF26-FFBE5F23CDD6}" ShortID="756317502">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{7DE3D5FA-4FE5-4E06-AA3F-F31F47068F13}" WorkUnitID="{758B6C64-0FE3-435A-958E-4414A4035560}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0639914C-60C4-4497-82BA-54727F9D6DC0}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CBA7DB4D-BDF4-4EFD-9604-4C44C3707E1E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ny_2022_chestball_open" ID="{9A40D49C-9787-4FF7-9E1D-DFDB4B7C1E3F}">
+													<Language>SFX</Language>
+													<AudioFile>ny_2022_chestball_open.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="818214189"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ny_2022_chestball_open" ID="{9A40D49C-9787-4FF7-9E1D-DFDB4B7C1E3F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C2D109AE-3356-4A9E-AA9E-31E7B32AE6E6}" SchemaVersion="97" RootDocumentID="{54D9571E-507C-47CE-BC18-364D71135319}">
+	<GameParameters>
+		<WorkUnit Name="Hangar" ID="{C2D109AE-3356-4A9E-AA9E-31E7B32AE6E6}" OwnerID="{54D9571E-507C-47CE-BC18-364D71135319}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="hover" ID="{85CC2B0B-0B41-4DFE-BD65-ACB8BDBE9B2E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

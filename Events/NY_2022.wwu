@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" SchemaVersion="97" RootDocumentID="{5C5CE8A9-D466-4290-9F85-01B873E07B8C}">
+	<Events>
+		<WorkUnit Name="NY_2022" ID="{7ADD63B7-4B7C-40CC-BB3B-25FA337C90CC}" OwnerID="{5C5CE8A9-D466-4290-9F85-01B873E07B8C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ambient_ny_hangar_2022_bells" ID="{1C463AE3-7E8A-4ADB-BC43-E59ECE5B5493}">
+					<ChildrenList>
+						<Action Name="" ID="{FC61FD5C-6D99-4E04-B2B4-19C44E581394}" ShortID="245177790">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bells_01" ID="{E9D7896F-0664-43B6-8FDC-D66A065B0AB7}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B00E97DF-847E-4441-803A-F48CB3889F38}" ShortID="1036295065">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bells_02" ID="{390A045C-B9FC-49D2-AA94-8A66F5E4933D}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambient_ny_hangar_2022_crowd" ID="{5F92F1B5-9DD8-4E20-AA12-3C73700D50F4}">
+					<ChildrenList>
+						<Action Name="" ID="{C2A3779F-AC83-408F-A761-DB8C4E27DA0E}" ShortID="474180648">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fireworks_crowd_02" ID="{830BD1B5-0386-4458-AA76-2C19EB7CD440}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8FCC5810-0D66-4D92-9EF8-43D2D6F70E32}" ShortID="360769380">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fireworks_crowd_01" ID="{FBFDC8F7-1BC1-4E9A-BC26-B31147D79866}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambient_ny_hangar_2022_drone" ID="{39EAD681-C0A3-4619-A9A4-E8011FEE04A4}">
+					<ChildrenList>
+						<Action Name="" ID="{E488895C-EBCA-4D70-A765-D3DC357DEA02}" ShortID="221111495">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="melody_BPM92" ID="{C785FF72-F1FB-40B5-B8F4-E34C5D5F4EC2}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{627C3592-F27C-4A2B-98DB-3B41EA52A314}" ShortID="1006567045">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="melody_BPM63" ID="{238C5E50-324A-4C6A-B24E-BBC47CDB9958}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambient_ny_hangar_2022_fireworks" ID="{6F3596B3-1762-47CB-8F55-EB08B3FBE34A}">
+					<ChildrenList>
+						<Action Name="" ID="{F53E1D7A-2202-4F5F-8A84-43EDCD226596}" ShortID="86044269">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fireworks_part_02" ID="{CE074C15-EEBB-4C22-A9A0-7D61A7CA9B15}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E6FFCDDD-6E95-4E31-8F11-977C7D2AE3C9}" ShortID="587877914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fireworks_part_01" ID="{1816BF49-51FB-4CDA-BE4E-7EAF4F3D1E78}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9197E76B-0EA5-4FA9-A9A7-E4A02CF8E75D}" ShortID="197307054">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fireworks_part_04_1-1" ID="{1F82F9DA-21CC-4927-8EF2-DF741A8D0140}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{83133BEA-EF88-4B66-AF18-D2CB54EE8F5B}" ShortID="902934995">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fireworks_part_05" ID="{69B58949-F75C-41FE-B0DC-902FE471C9EF}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambient_ny_hangar_2022_fireworks_far" ID="{8A2E9F03-13B6-4606-A5ED-A386D3DF01D7}">
+					<ChildrenList>
+						<Action Name="" ID="{E951E0D0-5354-4A7F-91FB-7E1E0324463E}" ShortID="1730919">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="firework_far-1" ID="{E5BF7B8B-879D-4ABE-B0B2-898BC231408A}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambient_ny_hangar_2022_snow" ID="{7FE876D0-47CA-4236-8A85-2750FF68F862}">
+					<ChildrenList>
+						<Action Name="" ID="{C8D658A4-59D6-405B-B107-CF6673629300}" ShortID="270237204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snow_02" ID="{8987E62C-11AC-445A-B17F-6B30F9C48BA4}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D641BEB9-43BC-421C-BD6D-6EC18FC02598}" ShortID="283023738">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snow_01" ID="{DD044B29-AC0B-422A-8C1F-AC24179980B5}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6F564482-5E0A-4C77-A948-07F6F1218645}" ShortID="527773148">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snow_03" ID="{179992DE-30FF-4B04-87F5-1C871A65A462}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{653FC44A-F3F2-478A-ADEE-623DFEA81ADB}" ShortID="39951120">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snow_04" ID="{31BF610C-A0A3-4ADE-8D08-5431238C5B6A}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AFBB6884-BCDF-4747-9C56-3AE0FC200477}" ShortID="598624623">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snow_05" ID="{C4C60C64-2483-44CF-9F91-CC22210B225A}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambient_ny_hangar_2022_sparks" ID="{A15870AF-B728-42D3-8478-D3E7B5889185}">
+					<ChildrenList>
+						<Action Name="" ID="{2A7D2EC1-A2E7-41B1-AA84-DFE9AF782CF9}" ShortID="205687111">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sparks_01" ID="{CA9EF033-7818-4831-AEF1-D8A9E9630227}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8EA99DF6-A244-4ADF-A98B-B583CD67B5C8}" ShortID="464739517">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sparks_02" ID="{7E5A1C64-416A-4040-89FC-552F5C08611B}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambient_ny_hangar_2022_trafic" ID="{A8487A47-18CA-47A3-A7E1-B3442BB30082}">
+					<ChildrenList>
+						<Action Name="" ID="{BD20CCE6-A860-4EB8-92EB-BD9ECE9109A3}" ShortID="446912285">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="car_trafic_2" ID="{7A8B9D6B-3D35-4BFA-B5A8-D142079623A8}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B334D424-CDB8-4C51-8260-BD57E481423C}" ShortID="993781539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="car_trafic_1" ID="{AAEC44B8-D49F-452C-B5DA-BD1821DC6319}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F45BB5B2-551F-46D3-B307-E7E1FD6E0B7E}" ShortID="965342181">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="car_trafic_3" ID="{3E023359-B35A-4F57-BC04-70CE86326ABB}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F63D8764-B12A-45BC-BFF9-B11570A24732}" ShortID="701459282">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="car_trafic_4" ID="{7F1F07B4-D0CC-4E30-A4D2-0828027B313B}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambient_ny_hangar_2022_tree" ID="{4FD0D70C-EDC9-4FF8-9A4E-05DDE821CFA3}">
+					<ChildrenList>
+						<Action Name="" ID="{11D2B4EF-0EA4-44A3-BDF8-5261B211B8CD}" ShortID="1019625955">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambient_tree_02" ID="{B39F8ED5-C4E4-43D8-8995-CE5C66151C8D}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{15916B45-B563-4366-B4E3-4D24465D50F6}" ShortID="368558099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambient_tree_01" ID="{3C5B04C1-06CC-4C53-8989-087A55218B4E}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ED705FE5-09CC-49DE-BA37-A9532193F7D5}" ShortID="1006276514">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambient_tree_03" ID="{1F0B72BE-E8B2-41FE-A99F-C6FC0FDA02AA}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambient_ny_hangar_2022_wind" ID="{A51CFBB0-070B-403E-97EE-E4E693543988}">
+					<ChildrenList>
+						<Action Name="" ID="{66CCA5E0-2334-4FB1-AB66-364F34472DF7}" ShortID="698329324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_winter_gust_01" ID="{27510B5E-3746-4905-A312-3B9735DBE8F6}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BFBA9749-FE86-4ED5-AC0E-2A5C6C3311D8}" ShortID="25161474">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_winter_gust_02" ID="{BB4EC40E-447F-4E78-ABD1-43A6A0919B33}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{26CF9114-8C99-4808-BF02-B606E98AB8ED}" ShortID="39141932">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_winter_gust_03" ID="{5B3DD5A7-A8DC-4138-8902-D78C4ADF7EC5}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D2354F2-CD7D-469E-9BFE-4B3533BBB12F}" ShortID="167759950">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_winter_gust_04" ID="{36DF0C49-BD2B-40F3-BA52-B0510F76606F}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7D9E28BD-6517-408B-8827-C97000D58F75}" ShortID="138046042">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_winter_wind_loop" ID="{B87748C1-03D6-460A-A132-736A5DE45FCC}" WorkUnitID="{E75826DE-7018-4FA6-8EE0-B45098E3DEBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="UI" ID="{5144D906-A9CF-4B4C-9AFB-48929B9BDCB9}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
