@@ -33,7 +33,7 @@
 9) В папке с проектом открываем папку GeneratedSoundBanks, затем Windows
 10) event_ny_2022.bnk преобразуем в формат .dvpl
 11) event_ny_2022.bnk.dvpl копируем в папку World of Tanks Blitz\Data\WwiseSound
-12) Подтверждаем замену файлов
+12) Подтверждаем замену файлов  
  Поздравляем, мод на Steam установлен!
  
  Для андроид:  
