@@ -19,3 +19,25 @@
 Дальше открываем Default Work Unit; Events; NY_2022
 
 И редактируем то, что вам нужно
+
+
+Если хотите поставить свою музыку в ангаре:
+1) Убираем все галочки у квадратиков в Default Work Unit; Events; NY_2022 у аудиофайлов (кроме melody_BPM63)
+2) Переименовываем свой аудиофайл в формате .wav в melody_BPM63
+3) Заменяем melody_BPM63 на свой melody_BPM63 (зажав файл и наложив его поверх melody_BPM63 в wwise)
+4) Подтверждаем замену аудиофайла
+5) Заходим в SoundBanks
+6) Правой кнопкой мыши нажимаем на Default Work Unit
+7) Выбираем Generate Soundbank(s) for current platform
+8) После генерации закрываем окно с успешной операцией и заходим в папку с проектом
+9) В папке с проектом открываем папку GeneratedSoundBanks, затем Windows
+10) event_ny_2022.bnk преобразуем в формат .dvpl
+11) event_ny_2022.bnk.dvpl копируем в папку World of Tanks Blitz\Data\WwiseSound
+12) Подтверждаем замену файлов
+ Поздравляем, мод на Steam установлен!
+ 
+ Для андроид:
+ 11.1) Включаем в настройках игры "Загрузить все ресурсы игры"
+ 11.2) event_ny_2022.bnk.dvpl копируем в папку Android\data\net.wargaming.wot.blitz\files\packs\WwiseSound
+ 11.3) Подтверждаем замену файлов
+  Мод на андроид установлен!
